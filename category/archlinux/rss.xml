@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Eninix&#39;s Blog • Posts by &#34;archlinux&#34; category</title>
+        <link>https://eninix.top</link>
+        <description>尔曹身与名俱灭，不废江河万古流。</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 12 Nov 2022 23:47:44 +0800</pubDate>
+        <lastBuildDate>Sat, 12 Nov 2022 23:47:44 +0800</lastBuildDate>
+        <category>C++</category>
+        <category>C</category>
+        <category>git</category>
+        <category>github</category>
+        <category>Python</category>
+        <category>Numpy</category>
+        <category>AI</category>
+        <category>sigil</category>
+        <category>linux</category>
+        <category>archlinux</category>
+        <item>
+            <guid isPermalink="true">https://eninix.top/archives/1ccad7af.html</guid>
+            <title>关于Archlinux无法保存密码</title>
+            <link>https://eninix.top/archives/1ccad7af.html</link>
+            <category>linux</category>
+            <category>archlinux</category>
+            <pubDate>Sat, 12 Nov 2022 23:47:44 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;在使用Arch的过程中，我发现vscode的登陆同步每次打开都需要重新进行登陆。关于这一点，经过网上搜集资料，发现是由于缺少gnome-keyring导致。&lt;/p&gt;
+&lt;p&gt;除了vscode，我的世界官方启动器以及其他的一些软件也需要gnome-keyring.&lt;/p&gt;
+&lt;p&gt;解决方法如下&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo pacman -S gnome-keyring&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta prompt_&#34;&gt;# &lt;/span&gt;&lt;span class=&#34;language-bash&#34;&gt;如果需要使用gui管理密码可以安装 seahorse&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta prompt_&#34;&gt;# &lt;/span&gt;&lt;span class=&#34;language-bash&#34;&gt;sudo pacman -S seahorse&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

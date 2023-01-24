@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Eninix's Blog • All posts by \"archlinux\" tag",
+    "description": "尔曹身与名俱灭，不废江河万古流。",
+    "home_page_url": "https://eninix.top",
+    "items": [
+        {
+            "id": "https://eninix.top/archives/1ccad7af.html",
+            "url": "https://eninix.top/archives/1ccad7af.html",
+            "title": "关于Archlinux无法保存密码",
+            "date_published": "2022-11-12T15:47:44.000Z",
+            "content_html": "<p>在使用Arch的过程中，我发现vscode的登陆同步每次打开都需要重新进行登陆。关于这一点，经过网上搜集资料，发现是由于缺少gnome-keyring导致。</p>\n<p>除了vscode，我的世界官方启动器以及其他的一些软件也需要gnome-keyring.</p>\n<p>解决方法如下</p>\n<figure class=\"highlight shell\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">sudo pacman -S gnome-keyring</span><br><span class=\"line\"><span class=\"meta prompt_\"># </span><span class=\"language-bash\">如果需要使用gui管理密码可以安装 seahorse</span></span><br><span class=\"line\"><span class=\"meta prompt_\"># </span><span class=\"language-bash\">sudo pacman -S seahorse</span></span><br></pre></td></tr></table></figure>\n",
+            "tags": [
+                "linux",
+                "archlinux"
+            ]
+        }
+    ]
+}

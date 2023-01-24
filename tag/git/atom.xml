@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://eninix.top</id>
+    <title>Eninix&#39;s Blog • Posts by &#34;git&#34; tag</title>
+    <link href="https://eninix.top" />
+    <updated>2022-11-12T06:57:54.000Z</updated>
+    <category term="C++" />
+    <category term="C" />
+    <category term="git" />
+    <category term="github" />
+    <category term="Python" />
+    <category term="Numpy" />
+    <category term="AI" />
+    <category term="sigil" />
+    <category term="linux" />
+    <category term="archlinux" />
+    <entry>
+        <id>https://eninix.top/archives/fe8402c1.html</id>
+        <title>Github-Cli的使用</title>
+        <link rel="alternate" href="https://eninix.top/archives/fe8402c1.html"/>
+        <content type="html">&lt;center&gt;Github-Cli是github官方推出的命令行工具，可以用来在命令行上快捷的操作github.&lt;/center&gt;
+
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+&lt;h1 id=&#34;1-官网及下载地址与安装手段&#34;&gt;&lt;a href=&#34;#1-官网及下载地址与安装手段&#34; class=&#34;headerlink&#34; title=&#34;1.官网及下载地址与安装手段&#34;&gt;&lt;/a&gt;1.官网及下载地址与安装手段&lt;/h1&gt;&lt;p&gt;&lt;a href=&#34;https://cli.github.com/&#34;&gt;官网：&lt;/a&gt;&lt;a href=&#34;https://cli.github.com/&#34;&gt;https://cli.github.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cli/cli#installation&#34;&gt;官方对各个系统的下载教程：&lt;/a&gt;&lt;a href=&#34;https://github.com/cli/cli#installation&#34;&gt;https://github.com/cli/cli#installation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cli.github.com/manual/&#34;&gt;官方github-cli指令指南：&lt;/a&gt;&lt;a href=&#34;https://cli.github.com/manual/&#34;&gt;https://cli.github.com/manual/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2-首次运行&#34;&gt;&lt;a href=&#34;#2-首次运行&#34; class=&#34;headerlink&#34; title=&#34;2.首次运行&#34;&gt;&lt;/a&gt;2.首次运行&lt;/h1&gt;&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;gh auth login&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;执行命令后，按照提示可选择打开浏览器输入验证码进行验证登录操作，也可以选择使用私人token进行登录。&lt;del&gt;注意：英语不太好的，可以使用翻译软件翻译。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;在这里登录后，使用git push时，即使是https方式克隆的仓库，也可以不输入密码就进行push（这条笔者只在linux上实验过，未在网上找到其他系统的资料）&lt;/p&gt;
+&lt;h1 id=&#34;3-基础操作&#34;&gt;&lt;a href=&#34;#3-基础操作&#34; class=&#34;headerlink&#34; title=&#34;3.基础操作&#34;&gt;&lt;/a&gt;3.基础操作&lt;/h1&gt;&lt;h2 id=&#34;3-1克隆仓库（gh-repo-clone）&#34;&gt;&lt;a href=&#34;#3-1克隆仓库（gh-repo-clone）&#34; class=&#34;headerlink&#34; title=&#34;3.1克隆仓库（gh repo clone）&#34;&gt;&lt;/a&gt;3.1克隆仓库（gh repo clone）&lt;/h2&gt;&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;gh repo clone 用户名/库名&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;使用该条命令，会在当前操作目录下，建立一个一库名命名的文件夹，即为你的github库。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130007794.png&#34; alt=&#34;image-20220117004819632&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130008360.png&#34; alt=&#34;image-20220117004906276&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-2打开当前github库的网页&#34;&gt;&lt;a href=&#34;#3-2打开当前github库的网页&#34; class=&#34;headerlink&#34; title=&#34;3.2打开当前github库的网页&#34;&gt;&lt;/a&gt;3.2打开当前github库的网页&lt;/h2&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;gh browse&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130011915.png&#34; alt=&#34;image-20220117005110529&#34;&gt;&lt;/p&gt;
+&lt;p&gt;执行完后，自动打开了我的浏览器。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130012955.png&#34; alt=&#34;image-20220117005229390&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-3查看某个库的README&#34;&gt;&lt;a href=&#34;#3-3查看某个库的README&#34; class=&#34;headerlink&#34; title=&#34;3.3查看某个库的README&#34;&gt;&lt;/a&gt;3.3查看某个库的README&lt;/h2&gt;&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;gh repo view 用户名/库名&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130012540.png&#34; alt=&#34;image-20220117011826651&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;4发布pull-requests&#34;&gt;&lt;a href=&#34;#4发布pull-requests&#34; class=&#34;headerlink&#34; title=&#34;4发布pull requests&#34;&gt;&lt;/a&gt;4发布pull requests&lt;/h1&gt;&lt;h2 id=&#34;4-1先在分支typo-随便改一下文件，并push&#34;&gt;&lt;a href=&#34;#4-1先在分支typo-随便改一下文件，并push&#34; class=&#34;headerlink&#34; title=&#34;4.1先在分支typo,随便改一下文件，并push&#34;&gt;&lt;/a&gt;4.1先在分支typo,随便改一下文件，并push&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130012366.png&#34; alt=&#34;image-20220117005734353&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4-2使用gh-pr-creat创建一个pull-requests&#34;&gt;&lt;a href=&#34;#4-2使用gh-pr-creat创建一个pull-requests&#34; class=&#34;headerlink&#34; title=&#34;4.2使用gh pr creat创建一个pull requests&#34;&gt;&lt;/a&gt;4.2使用gh pr creat创建一个pull requests&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130013549.png&#34; alt=&#34;image-20220117010038153&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这里我们可以看到，创建了一个编号5的pr&lt;/p&gt;
+&lt;p&gt;在库主页上也可以看到:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130013150.png&#34; alt=&#34;image-20220117010155504&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;4-3合并pull-requests&#34;&gt;&lt;a href=&#34;#4-3合并pull-requests&#34; class=&#34;headerlink&#34; title=&#34;4.3合并pull requests&#34;&gt;&lt;/a&gt;4.3合并pull requests&lt;/h2&gt;&lt;p&gt;可以直接在网页上操作，当然也可以使用gh pr merge命令&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;gh pr merge --auto&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130013454.png&#34; alt=&#34;image-20220117010518509&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;5-发布issues&#34;&gt;&lt;a href=&#34;#5-发布issues&#34; class=&#34;headerlink&#34; title=&#34;5.发布issues&#34;&gt;&lt;/a&gt;5.发布issues&lt;/h1&gt;&lt;p&gt;操作和pr操作类似&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;gh issue create  按照提示操作来创建一个issues，这里假设编号为 7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gh issue list  列出所有issues&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gh issue close 7  关闭 5号issues&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gh issue reopen 7  重新打开 5号issues&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gh issue comment 7  评论 5号issues&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gh issue view 7  查看 5号issues内容&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gh issue edit 7  编辑&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gh issue delete 7  删除&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;gh issue status  查看自己发布的issues&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h1 id=&#34;6-写在最後&#34;&gt;&lt;a href=&#34;#6-写在最後&#34; class=&#34;headerlink&#34; title=&#34;6.写在最後&#34;&gt;&lt;/a&gt;6.写在最後&lt;/h1&gt;&lt;p&gt;常用操作大概就这些，github-cli的纯命令行操作还是很好用的。gthub-cli配合git使用还是挺方便的。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cli.github.com/manual/&#34;&gt;https://cli.github.com/manual/&lt;/a&gt; 这里还有更多操作。&lt;del&gt;不过是英语&lt;/del&gt;&lt;/p&gt;
+</content>
+        <category term="git" />
+        <category term="github" />
+        <updated>2022-11-12T06:57:54.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://eninix.top/archives/2e742d51.html</id>
+        <title>Git的使用</title>
+        <link rel="alternate" href="https://eninix.top/archives/2e742d51.html"/>
+        <content type="html">&lt;center&gt;一些常用的git指令，和.gitignore文件的使用方法。&lt;/center&gt;
+
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+
+
+
+&lt;h1 id=&#34;1-安装&#34;&gt;&lt;a href=&#34;#1-安装&#34; class=&#34;headerlink&#34; title=&#34;1.安装&#34;&gt;&lt;/a&gt;1.安装&lt;/h1&gt;&lt;p&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;下载地址&lt;/a&gt;：&lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;https://git-scm.com/downloads&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;2-首次运行&#34;&gt;&lt;a href=&#34;#2-首次运行&#34; class=&#34;headerlink&#34; title=&#34;2.首次运行&#34;&gt;&lt;/a&gt;2.首次运行&lt;/h1&gt;&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt; 设置全局用户名和邮箱地址，建议与自己的github帐号一致。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.name &amp;quot;用户名&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.email &amp;quot;邮箱&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h1 id=&#34;3-基础指令&#34;&gt;&lt;a href=&#34;#3-基础指令&#34; class=&#34;headerlink&#34; title=&#34;3.基础指令&#34;&gt;&lt;/a&gt;3.基础指令&lt;/h1&gt;&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git init  初始化一个仓库，或者用下面的clone一个仓库&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git clone  后接https地址,可以克隆仓库&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git add  将文件添加到缓存区，进入待提交状态&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git commit -m &amp;quot;注释&amp;quot;  提交当前缓存区所有文件为一个版本&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git status  查看项目的当前状态&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git log  查看当前版本及以前版本的日志,可获取版本号&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git log --pretty=oneline  同上,但每个版本单行显示&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git reset --hard 版本号  回到曾经的版本&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git reflog  查看历史日志,可获取版本号&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git push  上传至线上仓库&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git pull  从线上仓库同步&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h1 id=&#34;4-分支指令&#34;&gt;&lt;a href=&#34;#4-分支指令&#34; class=&#34;headerlink&#34; title=&#34;4.分支指令&#34;&gt;&lt;/a&gt;4.分支指令&lt;/h1&gt;&lt;figure class=&#34;highlight shell&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git branch  (查看分支)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git branch 分支名  (创建分支)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git checkout 分支名  (切换分支)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git branch -d 分支名  (删除分支)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git merge 需要被分支名  (合并分支)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h1 id=&#34;5-文件“-gitigenore”&#34;&gt;&lt;a href=&#34;#5-文件“-gitigenore”&#34; class=&#34;headerlink&#34; title=&#34;5.文件“.gitigenore”&#34;&gt;&lt;/a&gt;5.文件“.gitigenore”&lt;/h1&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/文件夹名/ =&amp;gt; (忽略整个文件夹)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;*.zip =&amp;gt; (忽略所有.zip文件)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;/文件夹名/文件名.后缀 =&amp;gt; (忽略某个具体文件)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;文件名.后缀 =&amp;gt; (不忽略某个具体文件)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <category term="git" />
+        <updated>2022-11-12T06:45:52.000Z</updated>
+    </entry>
+</feed>
