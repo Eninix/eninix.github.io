@@ -24,7 +24,10 @@
             <category>C++</category>
             <category>C</category>
             <pubDate>Wed, 16 Nov 2022 22:57:50 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;C&amp;#x2F;C++进阶知识备忘录，也算得上是笔记吧。&lt;br&gt;这里的笔记总结自B站的教学视频。&lt;/p&gt;
+            <description><![CDATA[ &lt;center&gt;C/C++进阶知识备忘录，也算得上是笔记吧。  &lt;/center&gt;
+&lt;center&gt;这里的笔记总结自B站的教学视频。&lt;/center&gt;
+
+
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
 
@@ -1870,7 +1873,9 @@
             <category>C++</category>
             <category>C</category>
             <pubDate>Wed, 16 Nov 2022 11:54:55 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;C&amp;#x2F;C++核心知识备忘录，也算得上是笔记吧。&lt;br&gt;这里的笔记总结自B站的教学视频。&lt;/p&gt;
+            <description><![CDATA[ &lt;center&gt;C/C++核心知识备忘录，也算得上是笔记吧。  &lt;/center&gt;
+&lt;center&gt;这里的笔记总结自B站的教学视频。&lt;/center&gt;
+
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
 &lt;h1 id=&#34;引用&#34;&gt;&lt;a href=&#34;#引用&#34; class=&#34;headerlink&#34; title=&#34;引用&#34;&gt;&lt;/a&gt;引用&lt;/h1&gt;&lt;h2 id=&#34;引用的基本使用&#34;&gt;&lt;a href=&#34;#引用的基本使用&#34; class=&#34;headerlink&#34; title=&#34;引用的基本使用&#34;&gt;&lt;/a&gt;引用的基本使用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt; 给变量起别名&lt;/p&gt;
@@ -2830,7 +2835,10 @@
             <category>C++</category>
             <category>C</category>
             <pubDate>Sun, 13 Nov 2022 22:46:44 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;C&amp;#x2F;C++基础知识备忘录，也算得上是笔记吧。&lt;br&gt;这里的笔记总结自B站的教学视频。&lt;/p&gt;
+            <description><![CDATA[ &lt;center&gt;C/C++基础知识备忘录，也算得上是笔记吧。  &lt;/center&gt;
+&lt;center&gt;这里的笔记总结自B站的教学视频。&lt;/center&gt;
+
+
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
 &lt;h1 id=&#34;关键字&#34;&gt;&lt;a href=&#34;#关键字&#34; class=&#34;headerlink&#34; title=&#34;关键字&#34;&gt;&lt;/a&gt;关键字&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;关键字是C++中预先保留的单词（标识符）&lt;/p&gt;

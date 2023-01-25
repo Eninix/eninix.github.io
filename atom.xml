@@ -66,7 +66,10 @@
         <id>https://eninix.top/archives/69686e29.html</id>
         <title>C/C++进阶知识</title>
         <link rel="alternate" href="https://eninix.top/archives/69686e29.html"/>
-        <content type="html">&lt;p&gt;C&amp;#x2F;C++进阶知识备忘录，也算得上是笔记吧。&lt;br&gt;这里的笔记总结自B站的教学视频。&lt;/p&gt;
+        <content type="html">&lt;center&gt;C/C++进阶知识备忘录，也算得上是笔记吧。  &lt;/center&gt;
+&lt;center&gt;这里的笔记总结自B站的教学视频。&lt;/center&gt;
+
+
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
 
@@ -1912,7 +1915,9 @@
         <id>https://eninix.top/archives/f6e12747.html</id>
         <title>C/C++核心知识</title>
         <link rel="alternate" href="https://eninix.top/archives/f6e12747.html"/>
-        <content type="html">&lt;p&gt;C&amp;#x2F;C++核心知识备忘录，也算得上是笔记吧。&lt;br&gt;这里的笔记总结自B站的教学视频。&lt;/p&gt;
+        <content type="html">&lt;center&gt;C/C++核心知识备忘录，也算得上是笔记吧。  &lt;/center&gt;
+&lt;center&gt;这里的笔记总结自B站的教学视频。&lt;/center&gt;
+
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
 &lt;h1 id=&#34;引用&#34;&gt;&lt;a href=&#34;#引用&#34; class=&#34;headerlink&#34; title=&#34;引用&#34;&gt;&lt;/a&gt;引用&lt;/h1&gt;&lt;h2 id=&#34;引用的基本使用&#34;&gt;&lt;a href=&#34;#引用的基本使用&#34; class=&#34;headerlink&#34; title=&#34;引用的基本使用&#34;&gt;&lt;/a&gt;引用的基本使用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt; 给变量起别名&lt;/p&gt;
@@ -2872,7 +2877,10 @@
         <id>https://eninix.top/archives/48378b52.html</id>
         <title>C/C++基础知识</title>
         <link rel="alternate" href="https://eninix.top/archives/48378b52.html"/>
-        <content type="html">&lt;p&gt;C&amp;#x2F;C++基础知识备忘录，也算得上是笔记吧。&lt;br&gt;这里的笔记总结自B站的教学视频。&lt;/p&gt;
+        <content type="html">&lt;center&gt;C/C++基础知识备忘录，也算得上是笔记吧。  &lt;/center&gt;
+&lt;center&gt;这里的笔记总结自B站的教学视频。&lt;/center&gt;
+
+
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
 &lt;h1 id=&#34;关键字&#34;&gt;&lt;a href=&#34;#关键字&#34; class=&#34;headerlink&#34; title=&#34;关键字&#34;&gt;&lt;/a&gt;关键字&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;关键字是C++中预先保留的单词（标识符）&lt;/p&gt;
@@ -4355,7 +4363,7 @@
         <id>https://eninix.top/archives/4a17b156.html</id>
         <title>Hello World</title>
         <link rel="alternate" href="https://eninix.top/archives/4a17b156.html"/>
-        <content type="html">&lt;p&gt;仅以此页，纪念这个博客的开始。&lt;/p&gt;
+        <content type="html">&lt;center&gt;仅以此页，纪念这个博客的开始。&lt;/center&gt;
 </content>
         <updated>2022-11-10T16:22:05.000Z</updated>
     </entry>

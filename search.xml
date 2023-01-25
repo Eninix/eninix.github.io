@@ -76,7 +76,10 @@
   <entry>
     <title>C/C++进阶知识</title>
     <url>/archives/69686e29.html</url>
-    <content><![CDATA[<p>C&#x2F;C++进阶知识备忘录，也算得上是笔记吧。<br>这里的笔记总结自B站的教学视频。</p>
+    <content><![CDATA[<center>C/C++进阶知识备忘录，也算得上是笔记吧。  </center>
+<center>这里的笔记总结自B站的教学视频。</center>
+
+
 <span id="more"></span>
 
 
@@ -1925,7 +1928,9 @@
   <entry>
     <title>C/C++核心知识</title>
     <url>/archives/f6e12747.html</url>
-    <content><![CDATA[<p>C&#x2F;C++核心知识备忘录，也算得上是笔记吧。<br>这里的笔记总结自B站的教学视频。</p>
+    <content><![CDATA[<center>C/C++核心知识备忘录，也算得上是笔记吧。  </center>
+<center>这里的笔记总结自B站的教学视频。</center>
+
 <span id="more"></span>
 
 <h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><h2 id="引用的基本使用"><a href="#引用的基本使用" class="headerlink" title="引用的基本使用"></a>引用的基本使用</h2><p><strong>作用：</strong> 给变量起别名</p>
@@ -2888,7 +2893,10 @@
   <entry>
     <title>C/C++基础知识</title>
     <url>/archives/48378b52.html</url>
-    <content><![CDATA[<p>C&#x2F;C++基础知识备忘录，也算得上是笔记吧。<br>这里的笔记总结自B站的教学视频。</p>
+    <content><![CDATA[<center>C/C++基础知识备忘录，也算得上是笔记吧。  </center>
+<center>这里的笔记总结自B站的教学视频。</center>
+
+
 <span id="more"></span>
 
 <h1 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h1><p><strong>作用：</strong>关键字是C++中预先保留的单词（标识符）</p>
@@ -4362,7 +4370,7 @@
   <entry>
     <title>Hello World</title>
     <url>/archives/4a17b156.html</url>
-    <content><![CDATA[<p>仅以此页，纪念这个博客的开始。</p>
+    <content><![CDATA[<center>仅以此页，纪念这个博客的开始。</center>
 ]]></content>
   </entry>
 </search>
